@@ -23,10 +23,10 @@ def assistance_check(ticket):
 
 valid_assitances = ["Kim", "Nala", "Lara"]
 
-ticket_array = ["Tom", "Lucy", 4874, [55, "Julia", True]]
+ticket_list = ["Tom", "Lucy", 4874, [55, "Julia", True]]
 
 check_assistants()
 
-assistance_check(ticket_array)
+assistance_check(ticket_list)
 
 check_assistants()
